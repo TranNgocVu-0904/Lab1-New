@@ -1,8 +1,8 @@
 public class IntegerSumExamples1 {  
     public static void main(String[] args) {          
-      int a = 65;  
-        int b = 35;  
+      long a = 65;  
+        long b = 35;  
         // It will return the sum of a and b.  
-        System.out.println("The sum of a and b is = " + Integer.sum(a, b));  
+        System.out.println("The substract of a and b is = " + Math.subtractExact(a, b));  
     }  
 }  
